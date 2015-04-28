@@ -1,0 +1,513 @@
+<ctfSchema name="Grid" version="2013.0107" extension="csv">
+  <entry name="u_string" type="string" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_string" type="string" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_string" type="string" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="mass" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Kilograms.</param>
+  </entry>
+
+  <entry name="inertia_x" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Inertia for car rotating on axis through side of car.</param>
+  </entry>
+  <entry name="inertia_y" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Inertia for car rotating on axis through front of car</param>
+  </entry>
+  <entry name="inertia_z" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Inertia for car rotating on axis through top of car</param>
+  </entry>
+
+  <entry name="com_y" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Center of mass y. (Height Multiple)</param>
+  </entry>
+  <entry name="com_z" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Center of mass z. (0 = Rear Wheels, 1 = Front Wheels)</param>
+  </entry>
+
+  <entry name="air_resistance_x" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="air_resistance_y" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="air_resistance_z" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="downforce_u" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="engine_inertia" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="rev_limit" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Radians/Second.</param>
+  </entry>
+
+  <entry name="power0" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Power at Revs. Value = Power(Watts). Step = 54 Revs(Radians/Second).</param>
+  </entry>
+  <entry name="power1" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power2" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power3" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power4" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power5" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power6" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power7" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power8" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power9" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power10" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power11" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power12" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power13" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power14" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power15" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power16" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power17" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power18" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power19" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power20" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power21" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power22" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power23" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power24" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power25" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power26" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power27" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power28" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power29" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power30" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="power31" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="car_setup_version" type="string" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="turbo_boost_power0" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="turbo_boost_power1" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="turbo_boost_power2" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="turbo_boost_power3" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="turbo_boost_power4" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="turbo_boost_power5" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="turbo_boost_power6" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="engine_sound_set" type="string" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="turbocharger_u" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="turbocharger_u2" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="unused?" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="idle_rate" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Radians per second.</param>
+  </entry>
+
+  <entry name="engine_layout" type="string" minOperator="gte" minFlag="0">
+    <param name="restrictedValue">Unknown</param>
+    <param name="restrictedValue">Transverse</param>
+    <param name="restrictedValue">Inline</param>
+    <param name="restrictedValue">Rear Transverse</param>
+    <param name="restrictedValue">Rear Inline</param>
+  </entry>
+
+  <entry name="inertia_u" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="inertia_u2" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="inertia_u3" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="engine_drivetrain_class" type="string" minOperator="gte" minFlag="0">
+    <param name="restrictedValue">Front</param>
+    <param name="restrictedValue">Rear</param>
+    <param name="restrictedValue">Four</param>
+    <param name="restrictedValue">All</param>
+  </entry>
+
+  <entry name="grip_reverse" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_1st" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_2nd" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_3rd" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_4th" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_5th" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_6th" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_7th" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_8th" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="max_steering_lock" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Degrees.</param>
+  </entry>
+
+  <entry name="unused" type="string" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="anti_roll_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="anti_roll_rear" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="tyre_hardness_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="tyre_hardness_rear" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="brake_torque_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="brake_torque_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="wheel_inertia_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="wheel_inertia_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="suspension_max_travel_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="suspension_max_travel_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="suspension_max_stretch_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="suspension_max_stretch_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="toe_in_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="toe_in_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="damping_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="damping_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="suspension_strength_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="suspension_strength_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="grip_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="grip_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="downforce_proportion_air?" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="has_reverse_beep" type="int" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="use_open_wheel_damage" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="stating_wheelspin_grip_loss?" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="pad_min_lock" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="use_gokart_reverse_gears" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="steering_rate_u" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="gear_all_downshift_multiple" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="speed_for_no_starting_wheelspin" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="rebound_damping_multiple" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="open_top_flag" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="ai_use_softer_suspension" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="downforce_pressure_point" type="double" minOperator="gte" minFlag="0">
+    <param name="description">1 for front wheels, 0 for back.</param>
+  </entry>
+  
+  <entry name="camber_back_right" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Radians.</param>
+  </entry>
+  <entry name="camber_back_left" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="camber_front_right" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="camber_front_left" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="starter_motor_strength_multiple" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="speed_for_full_starting_wheelspin" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="visual_wheel_xv_limit" type="double" minOperator="gte" minFlag="0">
+    <param name="description">Render-only wheel lock limit to avoid clipping issues.</param>
+  </entry>
+
+  <entry name="use_guard_points" type="int" minOperator="gte" minFlag="0">
+    <param name="description">Consider disabling for open wheelers or other cars that go 'thin' in the middle.</param>
+  </entry>
+
+  <entry name="downforce_pressure_point_in_air" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="rear_rolling_resistance" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_rolling_resistance" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="steering_u" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="steering_u2" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="front_radius?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_radius?" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="locked_rear_axle" type="int" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="magic_brake" type="int" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="four_wheel_steering" type="int" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="fuel_tank_duration" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="fuel_weight" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="sideways_tyre_control" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="boost" type="int" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="front_roll_centre" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_roll_centre" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="damage_multiple_u" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="damage_multiple_u2" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="downforce_proportion_front_wing" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_proportion_spoiler" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_proportion_front_bumper" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="steering_u3" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="selfsteer_min_return_rate" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="selfsteer_speed_threshold?" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u" type="int" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="u2" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="stability_control_max_atc" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="stability_control_max_angle" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="stability_u" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="stability_u2" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="stability_u3" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="auto_revs_airborne?" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="ai_driving_style" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="gear_1st_downshift_multiple" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="downforce_grip?" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="wear_rate_multiple" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="disable_car_roll" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="unused?" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_wheel_skid_sound" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="pad_virbration_u?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="pad_virbration_u2" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="pad_virbration_u3" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="exhaust_pop_effect" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="unused" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="wheel_damage_u?" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="tyre_collision_control_u" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="tyre_collision_control_u2" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="selfsteer_lowangle_threshold" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="graphical_skid_control" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="tyre_collision_control_u3" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="visual_limit_max_wheel_height_u" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="min_wheel_height_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="max_wheel_height_front" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="min_wheel_height_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="max_wheel_height_rear" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_front_min_height" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_front_max_height" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_rear_min_height" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_rear_max_height" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_castor_left" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_castor_left" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_castor_right" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_castor_right" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_suspension_min_u?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_suspension_max_u?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_suspension_min_u?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_suspension_max_u?" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="front_slow_bump" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_slow_rebound" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_slow_bump" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_slow_rebound" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_fast_bump" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_fast_rebound" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_fast_bump" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_fast_rebound" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_suspension_min_u?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_suspension_max_u?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_suspension_min_u?" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_suspension_max_u?" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double250" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double261" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double281" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+  
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_int" type="int" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+  <entry name="u_double" type="double" minOperator="gte" minFlag="0"></entry>
+</ctfSchema>

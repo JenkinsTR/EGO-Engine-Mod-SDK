@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PSSGFILE version="1.0.0.0">
+  <node name="FETEXTLAYOUT" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="height" dataType="System.Single" />
+    <attribute name="depth" dataType="System.Single" />
+    <attribute name="tracking" dataType="System.Single" />
+  </node>
+  <node name="NEGLYPHMETRICS" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="advanceWidth" dataType="System.Single" />
+    <attribute name="horizontalBearing" dataType="System.Single" />
+    <attribute name="verticalBearing" dataType="System.Single" />
+    <attribute name="physicalWidth" dataType="System.Single" />
+    <attribute name="physicalHeight" dataType="System.Single" />
+  </node>
+  <node name="FEATLASINFODATA" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="u0" dataType="System.Single" />
+    <attribute name="v0" dataType="System.Single" />
+    <attribute name="u1" dataType="System.Single" />
+    <attribute name="v1" dataType="System.Single" />
+  </node>
+  <node name="BINARYOBJECT" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="binaryDataSize" dataType="System.Exception" />
+  </node>
+  <node name="BINARYDATA" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="CAMERANODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="isPerspective" dataType="System.Exception" />
+    <attribute name="nearPlane" dataType="System.Exception" />
+    <attribute name="farPlane" dataType="System.Exception" />
+    <attribute name="top" dataType="System.Exception" />
+    <attribute name="bottom" dataType="System.Exception" />
+    <attribute name="left" dataType="System.Exception" />
+    <attribute name="right" dataType="System.Exception" />
+    <attribute name="aspect" dataType="System.Exception" />
+    <attribute name="FOV" dataType="System.Exception" />
+  </node>
+  <node name="DATABLOCK" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="streamCount" dataType="System.UInt32" />
+    <attribute name="size" dataType="System.UInt32" />
+    <attribute name="elementCount" dataType="System.UInt32" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="DATABLOCKSTREAM" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="dataType" dataType="System.String" />
+    <attribute name="renderType" dataType="System.String" />
+    <attribute name="stride" dataType="System.UInt32" />
+    <attribute name="offset" dataType="System.UInt32" />
+  </node>
+  <node name="DATABLOCKDATA" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="" />
+  <node name="DATABLOCKBUFFERED" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="PSSGDATABASE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="" />
+  <node name="LIBRARY" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="type" dataType="System.String" />
+  </node>
+  <node name="/" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="JOINTNODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="BUNDLENODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="SKELETON" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="matrixCount" dataType="System.Exception" />
+  </node>
+  <node name="INVERSEBINDMATRIX" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="LAYER" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="name" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORK" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="modifierCount" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORKENTRY" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="name" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORKCONNECTION" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="modifier" dataType="System.Exception" />
+    <attribute name="stream" dataType="System.Exception" />
+  </node>
+  <node name="DYNAMICSTREAM" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="MODIFIERNETWORKINSTANCE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="dynamicStreamCount" dataType="System.Exception" />
+    <attribute name="modifierInputCount" dataType="System.Exception" />
+    <attribute name="parameterCount" dataType="System.Exception" />
+    <attribute name="modifierCount" dataType="System.Exception" />
+    <attribute name="packetModifierCount" dataType="System.Exception" />
+    <attribute name="network" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORKINSTANCEDYNAMICSTREAM" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="id" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORKINSTANCEMODIFIERINPUT" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="source" dataType="System.Exception" />
+    <attribute name="stream" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORKINSTANCECOMPILE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="uniqueInputCount" dataType="System.Exception" />
+    <attribute name="packetCount" dataType="System.Exception" />
+    <attribute name="maxElementCount" dataType="System.Exception" />
+    <attribute name="memorySizeForProcess" dataType="System.Exception" />
+    <attribute name="maxPacketOutputSize" dataType="System.Exception" />
+    <attribute name="maxTemporaryBufferSize" dataType="System.Exception" />
+    <attribute name="stateBlockBufferSize" dataType="System.Exception" />
+    <attribute name="totalInputPacketSize" dataType="System.Exception" />
+    <attribute name="packetSizeCount" dataType="System.Exception" />
+    <attribute name="packetModifierInputCount" dataType="System.Exception" />
+    <attribute name="infoPacketSize" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORKINSTANCEUNIQUEINPUT" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="uniqueInputSource" dataType="System.Exception" />
+    <attribute name="uniqueInputStream" dataType="System.Exception" />
+    <attribute name="uniqueInputElementSize" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORKINSTANCEUNIQUEMODIFIERINPUT" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="MODIFIERNETWORKINSTANCEDYNAMICSTREAMTYPE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="type" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORKINSTANCEPACKETSIZEIDS" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="MODIFIERNETWORKINSTANCEPACKETSIZESOURCES" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="MODIFIERNETWORKINSTANCEINPUTELEMENTSIZES" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="MODIFIERNETWORKINSTANCEINPUTREALIGNFLAGS" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="MODIFIERNETWORKINSTANCESTATEBLOCKOFFSET" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="MODIFIERNETWORKINSTANCEPACKET" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="packetInputSource" dataType="System.Exception" />
+    <attribute name="packetInputList" dataType="System.Exception" />
+  </node>
+  <node name="MODIFIERNETWORKMULTIINSTANCE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="instanceCount" dataType="System.Exception" />
+  </node>
+  <node name="NODE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="stopTraversal" dataType="System.UInt32" />
+    <attribute name="nickname" dataType="System.String" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="TRANSFORM" dataType="System.Single[]" elementsPerRow="8" linkAttributeName="" />
+  <node name="BOUNDINGBOX" dataType="System.Single[]" elementsPerRow="32" linkAttributeName="" />
+  <node name="XXX" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="USERDATA" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="object" dataType="System.Exception" />
+  </node>
+  <node name="RENDERSTREAM" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="dataBlock" dataType="System.String" />
+    <attribute name="subStream" dataType="System.UInt32" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="RENDERINDEXSOURCE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="primitive" dataType="System.String" />
+    <attribute name="minimumIndex" dataType="System.Exception" />
+    <attribute name="maximumIndex" dataType="System.UInt32" />
+    <attribute name="primitiveRestart" dataType="System.Exception" />
+    <attribute name="format" dataType="System.String" />
+    <attribute name="count" dataType="System.UInt32" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="INDEXSOURCEDATA" dataType="System.Byte[]" elementsPerRow="16" linkAttributeName="^format" />
+  <node name="RENDERINDEXSOURCEBUFFERED" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="RENDERDATASOURCE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="streamCount" dataType="System.UInt32" />
+    <attribute name="packetCount" dataType="System.Exception" />
+    <attribute name="packetListCount" dataType="System.Exception" />
+    <attribute name="primitive" dataType="System.Exception" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="RENDERDATASOURCEPACKETS" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="maxElementCount" dataType="System.Exception" />
+  </node>
+  <node name="RENDERDATAPACKETSOURCE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="packetSource" dataType="System.Exception" />
+  </node>
+  <node name="RENDERINSTANCE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="streamCount" dataType="System.UInt32" />
+    <attribute name="shader" dataType="System.String" />
+  </node>
+  <node name="RENDERSTREAMINSTANCE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="sourceCount" dataType="System.UInt32" />
+    <attribute name="indices" dataType="System.String" />
+  </node>
+  <node name="RENDERINSTANCESOURCE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="source" dataType="System.String" />
+  </node>
+  <node name="RENDERINSTANCESTREAM" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="sourceID" dataType="System.Exception" />
+    <attribute name="streamID" dataType="System.Exception" />
+  </node>
+  <node name="RENDERSTREAMMULTIINSTANCE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="instanceCount" dataType="System.Exception" />
+  </node>
+  <node name="RENDERINTERFACEBOUND" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="localData" dataType="System.Exception" />
+    <attribute name="isRenderTarget" dataType="System.Exception" />
+    <attribute name="allocateSystem" dataType="System.Exception" />
+    <attribute name="prioritizeRead" dataType="System.Exception" />
+    <attribute name="automaticBind" dataType="System.Exception" />
+    <attribute name="discardLocalAfterBind" dataType="System.Exception" />
+  </node>
+  <node name="RENDERINTERFACEBOUNDBUFFERED" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="singleBuffered" dataType="System.Exception" />
+  </node>
+  <node name="VISIBLERENDERNODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="RENDERNODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="ROOTNODE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="stopTraversal" dataType="System.UInt32" />
+    <attribute name="nickname" dataType="System.String" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="SEGMENTSET" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="segmentCount" dataType="System.Exception" />
+  </node>
+  <node name="SHADER" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="streamCount" dataType="System.Exception" />
+    <attribute name="parameterCount" dataType="System.Exception" />
+  </node>
+  <node name="SHADERGROUP" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="parameterCount" dataType="System.UInt32" />
+    <attribute name="parameterSavedCount" dataType="System.UInt32" />
+    <attribute name="parameterStreamCount" dataType="System.UInt32" />
+    <attribute name="instancesRequireSorting" dataType="System.UInt32" />
+    <attribute name="defaultRenderSortPriority" dataType="System.Int32" />
+    <attribute name="passCount" dataType="System.UInt32" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="SHADERSTREAMDEFINITION" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="renderTypeName" dataType="System.Exception" />
+    <attribute name="name" dataType="System.Exception" />
+  </node>
+  <node name="SHADERGROUPPASS" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="vertexProgram" dataType="System.Exception" />
+    <attribute name="fragmentProgram" dataType="System.Exception" />
+    <attribute name="hullProgram" dataType="System.Exception" />
+    <attribute name="domainProgram" dataType="System.Exception" />
+    <attribute name="blendEnable" dataType="System.Exception" />
+    <attribute name="blendSource" dataType="System.Exception" />
+    <attribute name="blendDest" dataType="System.Exception" />
+    <attribute name="blendOp" dataType="System.Exception" />
+    <attribute name="separateAlphaBlendEnable" dataType="System.Exception" />
+    <attribute name="blendSourceAlpha" dataType="System.Exception" />
+    <attribute name="blendDestAlpha" dataType="System.Exception" />
+    <attribute name="blendOpAlpha" dataType="System.Exception" />
+    <attribute name="alphaTestEnable" dataType="System.Exception" />
+    <attribute name="alphaTestFunc" dataType="System.Exception" />
+    <attribute name="alphaTestRef" dataType="System.Exception" />
+    <attribute name="alphaToCoverageEnable" dataType="System.Exception" />
+    <attribute name="alphaToCoverageLevel" dataType="System.Exception" />
+    <attribute name="depthTestEnable" dataType="System.Exception" />
+    <attribute name="depthTestFunc" dataType="System.Exception" />
+    <attribute name="depthMaskEnable" dataType="System.Exception" />
+    <attribute name="cullFaceType" dataType="System.Exception" />
+    <attribute name="polyFillType" dataType="System.Exception" />
+    <attribute name="polyOffsetEnable" dataType="System.Exception" />
+    <attribute name="polyOffsetFactor" dataType="System.Exception" />
+    <attribute name="polyOffsetUnits" dataType="System.Exception" />
+    <attribute name="colorMaskRed" dataType="System.Exception" />
+    <attribute name="colorMaskGreen" dataType="System.Exception" />
+    <attribute name="colorMaskBlue" dataType="System.Exception" />
+    <attribute name="colorMaskAlpha" dataType="System.Exception" />
+    <attribute name="stencilMode" dataType="System.Exception" />
+    <attribute name="2SidedStencilFrontFunc" dataType="System.Exception" />
+    <attribute name="2SidedStencilFrontRef" dataType="System.Exception" />
+    <attribute name="2SidedStencilFrontMask" dataType="System.Exception" />
+    <attribute name="2SidedStencilFrontFailOp" dataType="System.Exception" />
+    <attribute name="2SidedStencilFrontZFailOp" dataType="System.Exception" />
+    <attribute name="2SidedStencilFrontZPassOp" dataType="System.Exception" />
+    <attribute name="2SidedStencilFrontStencilMask" dataType="System.Exception" />
+    <attribute name="2SidedStencilBackFunc" dataType="System.Exception" />
+    <attribute name="2SidedStencilBackRef" dataType="System.Exception" />
+    <attribute name="2SidedStencilBackMask" dataType="System.Exception" />
+    <attribute name="2SidedStencilBackFailOp" dataType="System.Exception" />
+    <attribute name="2SidedStencilBackZFailOp" dataType="System.Exception" />
+    <attribute name="2SidedStencilBackZPassOp" dataType="System.Exception" />
+    <attribute name="2SidedStencilBackStencilMask" dataType="System.Exception" />
+    <attribute name="normalizeEnable" dataType="System.Exception" />
+    <attribute name="passConfigMask" dataType="System.Exception" />
+    <attribute name="polySmoothEnable" dataType="System.Exception" />
+    <attribute name="coupleVertexAndPixelProgram" dataType="System.Exception" />
+  </node>
+  <node name="SHADERINSTANCE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="shaderGroup" dataType="System.String" />
+    <attribute name="parameterCount" dataType="System.UInt32" />
+    <attribute name="parameterSavedCount" dataType="System.UInt32" />
+    <attribute name="renderSortPriority" dataType="System.UInt32" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="SHADERINPUT" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="format">
+    <attribute name="parameterID" dataType="System.UInt32" />
+    <attribute name="type" dataType="System.String" />
+    <attribute name="format" dataType="System.String" />
+    <attribute name="custom" dataType="System.Exception" />
+    <attribute name="texture" dataType="System.Exception" />
+    <attribute name="light" dataType="System.Exception" />
+    <attribute name="object" dataType="System.Exception" />
+  </node>
+  <node name="SHADERINPUTDEFINITION" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="name" dataType="System.String" />
+    <attribute name="type" dataType="System.String" />
+    <attribute name="format" dataType="System.String" />
+  </node>
+  <node name="SHADERPROGRAMCODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="codeSize" dataType="System.Exception" />
+    <attribute name="codeType" dataType="System.Exception" />
+    <attribute name="profileType" dataType="System.Exception" />
+    <attribute name="profile" dataType="System.Exception" />
+    <attribute name="codeEntry" dataType="System.Exception" />
+    <attribute name="parameterCount" dataType="System.Exception" />
+    <attribute name="streamCount" dataType="System.Exception" />
+  </node>
+  <node name="SHADERPROGRAMCODEBLOCK" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="CGSTREAM" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="cgStreamName" dataType="System.Exception" />
+    <attribute name="cgStreamDataType" dataType="System.Exception" />
+    <attribute name="cgStreamRenderType" dataType="System.Exception" />
+  </node>
+  <node name="SHADERPROGRAM" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="codeCount" dataType="System.Exception" />
+  </node>
+  <node name="SKINNODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="jointCount" dataType="System.Exception" />
+    <attribute name="skeleton" dataType="System.Exception" />
+    <attribute name="updateBounds" dataType="System.Exception" />
+  </node>
+  <node name="SKINJOINT" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="joint" dataType="System.Exception" />
+  </node>
+  <node name="TEXTURE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="width" dataType="System.Exception" />
+    <attribute name="height" dataType="System.Exception" />
+    <attribute name="depth" dataType="System.Exception" />
+    <attribute name="texelFormat" dataType="System.Exception" />
+    <attribute name="transient" dataType="System.Exception" />
+    <attribute name="wrapS" dataType="System.Exception" />
+    <attribute name="wrapT" dataType="System.Exception" />
+    <attribute name="wrapR" dataType="System.Exception" />
+    <attribute name="minFilter" dataType="System.Exception" />
+    <attribute name="magFilter" dataType="System.Exception" />
+    <attribute name="automipmap" dataType="System.Exception" />
+    <attribute name="numberMipMapLevels" dataType="System.Exception" />
+    <attribute name="msaaType" dataType="System.Exception" />
+    <attribute name="gammaRemapR" dataType="System.Exception" />
+    <attribute name="gammaRemapG" dataType="System.Exception" />
+    <attribute name="gammaRemapB" dataType="System.Exception" />
+    <attribute name="gammaRemapA" dataType="System.Exception" />
+    <attribute name="enableCompare" dataType="System.Exception" />
+    <attribute name="maxAnisotropy" dataType="System.Exception" />
+    <attribute name="lodBias" dataType="System.Exception" />
+    <attribute name="enableVertexTexture" dataType="System.Exception" />
+    <attribute name="borderColor" dataType="System.Exception" />
+    <attribute name="imageBlockCount" dataType="System.Exception" />
+    <attribute name="mipZeroAbsent" dataType="System.Exception" />
+  </node>
+  <node name="TEXTUREIMAGE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="TEXTUREMIPMAP" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="TEXTUREIMAGEBLOCK" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="typename" dataType="System.Exception" />
+    <attribute name="size" dataType="System.Exception" />
+  </node>
+  <node name="TEXTUREIMAGEBLOCKDATA" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="CUBEMAPTEXTURE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="?xml" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="PSSGFILE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="version" dataType="System.Exception" />
+  </node>
+  <node name="DXSHADER" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="passCount" dataType="System.Exception" />
+  </node>
+  <node name="DXPASS" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="rtmask" dataType="System.Exception" />
+    <attribute name="clear" dataType="System.Exception" />
+  </node>
+  <node name="DXSTATE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="blendEnabled" dataType="System.Exception" />
+    <attribute name="blendSource" dataType="System.Exception" />
+    <attribute name="blendDestination" dataType="System.Exception" />
+    <attribute name="blendOperation" dataType="System.Exception" />
+    <attribute name="separateAlphaBlendEnabled" dataType="System.Exception" />
+    <attribute name="blendSourceAlpha" dataType="System.Exception" />
+    <attribute name="blendDestinationAlpha" dataType="System.Exception" />
+    <attribute name="blendOperationAlpha" dataType="System.Exception" />
+    <attribute name="alphaTestEnabled" dataType="System.Exception" />
+    <attribute name="alphaFuncFunc" dataType="System.Exception" />
+    <attribute name="alphaFuncRefValue" dataType="System.Exception" />
+    <attribute name="alphaToCoverageEnabled" dataType="System.Exception" />
+    <attribute name="alphaToCoverageLevel" dataType="System.Exception" />
+    <attribute name="depthTestEnabled" dataType="System.Exception" />
+    <attribute name="depthTestFunc" dataType="System.Exception" />
+    <attribute name="depthMaskEnabled" dataType="System.Exception" />
+    <attribute name="cullMode" dataType="System.Exception" />
+    <attribute name="stencilEnabled" dataType="System.Exception" />
+    <attribute name="stencilTwoSidedEnabled" dataType="System.Exception" />
+    <attribute name="stencilFunc" dataType="System.Exception" />
+    <attribute name="stencilFuncRef" dataType="System.Exception" />
+    <attribute name="stencilFuncMask" dataType="System.Exception" />
+    <attribute name="stencilOpFail" dataType="System.Exception" />
+    <attribute name="stencilOpZFail" dataType="System.Exception" />
+    <attribute name="stencilOpZPass" dataType="System.Exception" />
+    <attribute name="stencilBackFunc" dataType="System.Exception" />
+    <attribute name="stencilBackFuncRef" dataType="System.Exception" />
+    <attribute name="stencilBackFuncMask" dataType="System.Exception" />
+    <attribute name="stencilBackOpFail" dataType="System.Exception" />
+    <attribute name="stencilBackOpZFail" dataType="System.Exception" />
+    <attribute name="stencilBackOpZPass" dataType="System.Exception" />
+    <attribute name="stencilMask" dataType="System.Exception" />
+    <attribute name="polygonOffsetEnabled" dataType="System.Exception" />
+    <attribute name="polygonOffsetFactor" dataType="System.Exception" />
+    <attribute name="polygonOffsetUnits" dataType="System.Exception" />
+    <attribute name="colorMaskR" dataType="System.Exception" />
+    <attribute name="colorMaskG" dataType="System.Exception" />
+    <attribute name="colorMaskB" dataType="System.Exception" />
+    <attribute name="colorMaskA" dataType="System.Exception" />
+    <attribute name="fillMode" dataType="System.Exception" />
+  </node>
+  <node name="DX11SHADER" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="passCount" dataType="System.Exception" />
+  </node>
+  <node name="DX11PASS" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="rtmask" dataType="System.Exception" />
+    <attribute name="clear" dataType="System.Exception" />
+  </node>
+  <node name="DX11STATE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="blendEnabled" dataType="System.Exception" />
+    <attribute name="blendSource" dataType="System.Exception" />
+    <attribute name="blendDestination" dataType="System.Exception" />
+    <attribute name="blendOperation" dataType="System.Exception" />
+    <attribute name="alphaTestRef" dataType="System.Exception" />
+    <attribute name="separateAlphaBlendEnabled" dataType="System.Exception" />
+    <attribute name="blendSourceAlpha" dataType="System.Exception" />
+    <attribute name="blendDestinationAlpha" dataType="System.Exception" />
+    <attribute name="blendOperationAlpha" dataType="System.Exception" />
+    <attribute name="alphaToCoverageEnabled" dataType="System.Exception" />
+    <attribute name="depthTestEnabled" dataType="System.Exception" />
+    <attribute name="depthTestFunc" dataType="System.Exception" />
+    <attribute name="depthMaskEnabled" dataType="System.Exception" />
+    <attribute name="cullMode" dataType="System.Exception" />
+    <attribute name="stencilEnabled" dataType="System.Exception" />
+    <attribute name="stencilTwoSidedEnabled" dataType="System.Exception" />
+    <attribute name="stencilFunc" dataType="System.Exception" />
+    <attribute name="stencilFuncRef" dataType="System.Exception" />
+    <attribute name="stencilFuncMask" dataType="System.Exception" />
+    <attribute name="stencilOpFail" dataType="System.Exception" />
+    <attribute name="stencilOpZFail" dataType="System.Exception" />
+    <attribute name="stencilOpZPass" dataType="System.Exception" />
+    <attribute name="stencilBackFunc" dataType="System.Exception" />
+    <attribute name="stencilBackFuncRef" dataType="System.Exception" />
+    <attribute name="stencilBackFuncMask" dataType="System.Exception" />
+    <attribute name="stencilBackOpFail" dataType="System.Exception" />
+    <attribute name="stencilBackOpZFail" dataType="System.Exception" />
+    <attribute name="stencilBackOpZPass" dataType="System.Exception" />
+    <attribute name="stencilMask" dataType="System.Exception" />
+    <attribute name="polygonOffsetEnabled" dataType="System.Exception" />
+    <attribute name="polygonOffsetFactor" dataType="System.Exception" />
+    <attribute name="polygonOffsetUnits" dataType="System.Exception" />
+    <attribute name="colorMaskR" dataType="System.Exception" />
+    <attribute name="colorMaskG" dataType="System.Exception" />
+    <attribute name="colorMaskB" dataType="System.Exception" />
+    <attribute name="colorMaskA" dataType="System.Exception" />
+    <attribute name="fillMode" dataType="System.Exception" />
+  </node>
+  <node name="LODNODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="LODRENDERINSTANCES" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="lodCount" dataType="System.Exception" />
+  </node>
+  <node name="LODRENDERINSTANCELIST" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="lod" dataType="System.Exception" />
+  </node>
+  <node name="LODVISIBLERENDERNODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="LODRENDERNODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="LODSKINNODE" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="MATRIXPALETTENODE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="stopTraversal" dataType="System.UInt32" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="MATRIXPALETTEBUNDLENODE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="stopTraversal" dataType="System.UInt32" />
+    <attribute name="nickname" dataType="System.String" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="MATRIXPALETTEJOINTNODE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="matrixPalette" dataType="System.String" />
+    <attribute name="stopTraversal" dataType="System.UInt32" />
+    <attribute name="nickname" dataType="System.String" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="MATRIXPALETTEJOINTRENDERINSTANCE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="streamOffset" dataType="System.UInt32" />
+    <attribute name="elementCountFromOffset" dataType="System.UInt32" />
+    <attribute name="indexOffset" dataType="System.UInt32" />
+    <attribute name="indicesCountFromOffset" dataType="System.UInt32" />
+    <attribute name="jointID" dataType="System.UInt32" />
+    <attribute name="sourceCount" dataType="System.UInt32" />
+    <attribute name="indices" dataType="System.String" />
+    <attribute name="streamCount" dataType="System.UInt32" />
+    <attribute name="shader" dataType="System.String" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="MATRIXPALETTERENDERINSTANCE" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="jointCount" dataType="System.UInt32" />
+    <attribute name="sourceCount" dataType="System.UInt32" />
+    <attribute name="indices" dataType="System.String" />
+    <attribute name="streamCount" dataType="System.UInt32" />
+    <attribute name="shader" dataType="System.String" />
+    <attribute name="id" dataType="System.String" />
+  </node>
+  <node name="MATRIXPALETTESKINJOINT" dataType="System.Byte[]" elementsPerRow="32" linkAttributeName="">
+    <attribute name="joint" dataType="System.String" />
+  </node>
+  <node name="PNLOOKAT" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="roll" dataType="System.Exception" />
+  </node>
+  <node name="PNSTRING" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="data" dataType="System.Exception" />
+    <attribute name="size" dataType="System.Exception" />
+  </node>
+  <node name="DATA" dataType="System.Exception" elementsPerRow="32" linkAttributeName="" />
+  <node name="PNTEXTURESCALING" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="scale" dataType="System.Exception" />
+    <attribute name="min" dataType="System.Exception" />
+  </node>
+  <node name="PNTEXTURESETTINGS" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="realwidth" dataType="System.Exception" />
+    <attribute name="realheight" dataType="System.Exception" />
+  </node>
+  <node name="PNVECTOR4" dataType="System.Exception" elementsPerRow="32" linkAttributeName="">
+    <attribute name="data" dataType="System.Exception" />
+  </node>
+</PSSGFILE>

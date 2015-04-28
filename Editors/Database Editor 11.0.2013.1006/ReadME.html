@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>RDE - Readme</title>
+    <link href="include/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="top">
+        <h1>Ryder Database Editor</h1>
+        version 11.0.2013.1006<br />
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><a href="http://petar.outer-heaven.net/downloads/">Application Website</a></p>
+    </div>
+    <div class="main">
+        <h2>Contents</h2>
+        <ol>
+            <li>Requirements</li>
+            <li>Installation</li>
+            <li>Editor Information</li>
+            <li>Usage</li>
+            <li>Issues</li>
+            <li>Changelog</li>
+            <li>Credits</li>
+        </ol>
+    </div>
+    <div class="main">
+        <h2>Requirements</h2>
+        <ul>
+            <li><a href="http://msdn.microsoft.com/en-us/netframework/aa569263">.NET Framework 4</a></li>
+            <li>Willingness to Learn</li>
+        </ul>
+        <h2>Installation</h2>
+        <ol>
+            <li>Extract everything from the RAR file.</li>
+            <li>Right click <em>Ego Database Editor.exe</em> and select <em>Run As Administrator</em>.</li>
+            <li>Enjoy! :)</li>
+        </ol>
+        <div class="yellow">
+            If using Vista (not sure if same goes for Windows 7) it may cause errors if you put it in certain folders because of some
+sort of protection that Vista likes to use. For problems/solutions check below.
+        </div>
+    </div>
+    <div class="main">
+        <h2>Editor Information</h2>
+        <p>This tool will allow you to edit the database.bin file from various Ego Engine games. In the file you can edit tons of things like events, ai skill levels, teams and so much more.</p>
+        <p>Features:</p>
+        <ul>
+            <li><strong>Convert</strong> -- Converts the bin file into easy to understand and organized datatables or xml file.</li>
+            <li><strong>Add/Edit Row Form</strong> -- New form that makes adding or editing much easier than before.</li>
+            <li><strong>Compare/Merge Databases</strong> -- Get the differences between two databases and merge those differences.</li>
+            <li><strong>Alternating Rows</strong> -- Puts color on every other row to make viewing easier.</li>
+            <li><strong>Filtering</strong> -- Allows you to quickly search each column and has the option to turn on and off certain columns.</li>
+            <li><strong>Column Sorting</strong> -- Lets you sort each column in ascending, descending or default order.</li>
+            <li><strong>Open With</strong> -- Associate the database.bin with this program, and simply double click to open from then on.</li>
+        </ul>
+        <h2>Usage</h2>
+        <br />
+        <div class="red">The use of a modified database file will not allow you to play online unless the people you are playing with have the same file. Make sure to backup your original database file.</div>
+        <p>Here are some do's and dont's:</p>
+        <ul>
+            <li>If you're going to add a new item make sure that it has it's own unique ID</li>
+            <li>If the type is bool then you can only write in True or False</li>
+            <li>Make sure the amount of characters in a string is the same as the specified size or less. If it says 16 you have to have 16 characters or less</li>
+        </ul>
+        <p>Using the <strong>GUI</strong></p>
+        <ul>
+            <li>To open a table for editing double click it.</li>
+            <li>To close a table tab after editing press Control + T, select <em>Close Tab</em> from the <em>Edit</em> menu or double click the tab itself.</li>
+            <li>Right click the top left corner of a datatable to see a menu for turning columns on or off.</li>
+            <li>Right click a column header to see a filter menu pop up for easy searching of items.</li>
+            <li>When exporting as xml an xsd file is created along with your xml. Make sure to always have those two files together if you're going to send it to someone.</li>
+            <li>Middle-Mouse-Clicking certain cells in a table will open the table that the column of the cell is associated with.</li>
+            <li>When using the add row feature:
+			<ul>
+                <li>Double Click the top left corner of the datatable to view the main table.</li>
+                <li>For rows with a drop down box, double click the row header to view the table that the dropdown box is associated with.</li>
+                <li>To close tables double click their tab.</li>
+            </ul>
+            </li>
+            <li>To edit cells faster (instead of the painful two clicks) use the right mouse click on a cell</li>
+            <li>Compare Databases
+			<ul>
+                <li>After Opening a database, select the second database that you want to get the differences from.</li>
+                <li>Once you get the differences, you can open the file separately to browse, or you can merge it to your original database.</li>
+                <li>NOTE: Do Not edit the difference file; When merging, rows will never be deleted; Certain tables cannot be checked for diffs</li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>Issues</h2>
+        <ul>
+            <li>If you get errors try one of the following:
+        <ul>
+            <li>Run the exe as an administrator or give it administrator rights.</li>
+            <li>Make sure the folder that you put the files in is not readonly.</li>
+            <li>Put the files in a folder on the desktop.</li>
+        </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>Changelog</h2>
+        <ul>
+            <li><strong>11.0.2013.1006</strong>
+                <ul>
+                    <li>Added F1 2013 support</li>
+                    <li>Dirt Xml Import Support</li>
+                    <li>Fixed Compare/Merge Function</li>
+                    <li>Fixed some Pasting errors</li>
+                    <li>Minor UI Improvements</li>
+                    <li>Cleaner Xml Export (Internal Schema)</li>
+                    <li>Uses EEL</li>
+                </ul>
+            </li>
+
+            <li><strong>2.2.2012.0919 (2.2.1)</strong>
+                <ul>
+                    <li>Added F1 2012 support</li>
+                    <li>Fixed Edit Row form</li>
+                    <li>Fixed Pasting Error with Hidden Columns</li>
+                    <li>Minor UI Improvements</li>
+                </ul>
+            </li>
+
+            <li><strong>2.2.2012.0522</strong>
+                <ul>
+                    <li>New Features: Compare/Merge Databases</li>
+                    <li>Added button for Opening Populated Tables, Linked Tables, and Closing All Tables</li>
+                    <li>Open LinkedTables to columns by MiddleMouseClicking a cell in that column</li>
+                    <li>Right-Click a Cell to directly edit its contents</li>
+                    <li>NOTE: The command line version was not updated from 2.0... still</li>
+                </ul>
+            </li>
+
+            <li><strong>2.1.2011.0921</strong>
+                <ul>
+                    <li>Added support for F1 2011</li>
+                    <li>New Features: Add/Edit Row Form - Now much easier to make changes</li>
+                    <li>Fixed pasting and Adding new rows</li>
+                    <li>Asks to save changes on exit if changes were made</li>
+                    <li>Added restrictions for many things so expect the program to yell at you if you do something wrong</li>
+                    <li>NOTE: The command line version was not updated from 2.0</li>
+                </ul>
+            </li>
+
+            <li><strong>2.0.2011.0530</strong>
+                <ul>
+                    <li>Added support for Dirt 3</li>
+                    <li>New Features: Column Sorting, Alternating Row Colors, Visible Column Selection, Column Filtering, Export/Import as XML</li>
+                    <li>Changed XML structure</li>
+                    <li>Removed GUI 1</li>
+                </ul>
+            </li>
+
+            <li><strong>1.6.2011.0123</strong>
+                <ul>
+                    <li>Added a button to close tabs since some were having trouble saving (GUI 2)</li>
+                </ul>
+            </li>
+
+            <li><strong>1.6.2011.0122</strong>
+                <ul>
+                    <li>Changed XML format a little</li>
+                    <li>Increased Convert Speed</li>
+                    <li>Added a new GUI Program For Easier Editing</li>
+                </ul>
+            </li>
+
+            <li><strong>1.5.2010.1225</strong>
+                <ul>
+                    <li>Changed Version Numbering</li>
+                    <li>Changed program icon</li>
+                    <li>Renamed to Ryder Database Editor</li>
+                    <li>Added Command Line Version</li>
+                    <li>Removed Need to Select Schemas</li>
+                    <li>Rebuilt UI to Increase Speed</li>
+                </ul>
+            </li>
+
+            <li><strong>3.2.2010.1022</strong>
+                <ul>
+                    <li>Fixed Jump List Erase Bug</li>
+                    <li>Added Open With Functionality</li>
+                </ul>
+            </li>
+
+            <li><strong>3.1.2010.1007</strong>
+                <ul>
+                    <li>Dropdown Schema Selection</li>
+                    <li>Menu Keyboard Shortcuts</li>
+                </ul>
+            </li>
+
+            <li><strong>3.0.2010.0922</strong>
+                <ul>
+                    <li>Added F1 2010 Support</li>
+                </ul>
+            </li>
+
+            <li><strong>2.0.2010.0610</strong>
+                <ul>
+                    <li>Added Dirt 2 Support</li>
+                    <li>Fixed Bugs</li>
+                    <li>Added Icons to the Menu</li>
+                </ul>
+            </li>
+
+            <li><strong>1.0.2010.0501</strong>
+                <ul>
+                    <li>First Release</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Credits</h2>
+        <ul>
+            <li>Ryder25 - <small>For creating the program. (tasevp(at)yahoo(dot)com)</small></li>
+            <li>Rydiculous - <small>For testing and giving suggestions.</small></li>
+            <li>Shadow - <small>For testing and giving suggestions.</small></li>
+            <li>luh-koala - <small>For making the program icon.</small></li>
+        </ul>
+    </div>
+</body>
+</html>

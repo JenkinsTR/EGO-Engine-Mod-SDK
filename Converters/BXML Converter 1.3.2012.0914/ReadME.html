@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>RBC - Readme</title>
+<style type="text/css">
+body {
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	width:990px;
+	background:#333;
+	color:#fff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#top {
+	margin:0;
+	margin-bottom:10px;
+	padding:10px;
+	width:auto;
+	background:#666;
+	border:solid #999;
+	border-top:none;
+	text-align:center;
+}
+
+div.main {
+	margin:0;
+	margin-bottom:10px;
+	padding:10px;
+	width:auto;
+	background:#666;
+	border:solid #999;
+}
+
+div.red {
+	margin:0;
+	padding:5px;
+	background:#900;
+	border:solid #c00;
+}
+
+div.yellow {
+	margin:0;
+	padding:5px;
+	background:#c90;
+	border:solid #fc0;
+}
+
+h1 {
+	margin:0;
+	padding:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	margin:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.4em;
+}
+
+h3 {
+	margin:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.2em;
+}
+
+div.red + h2, h2 + div.yellow {
+	margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+<div id="top">
+	<h1>Ryder BXML Converter</h1>
+	version 1.3.2012.0914<br />
+	<p style="font-family:Georgia, 'Times New Roman', Times, serif;"><a href="http://petar.outer-heaven.net/downloads/">Application Website</a></p>
+</div>
+<div class="main">
+	<h2>Contents</h2>
+	<ol>
+		<li>Requirements</li>
+		<li>Installation</li>
+		<li>Editor Information</li>
+		<li>Usage</li>
+		<li>Issues</li>
+		<li>Changelog</li>
+		<li>Credits</li>
+	</ol>
+</div>
+<div class="main">
+	<h2>Requirements</h2>
+	<ul>
+		<li>.NET Framework 4</li>
+	</ul>
+	<h2>Installation</h2>
+	<ol>
+		<li>Extract everything from the RAR file.</li>
+		<li>Drag/Drop an xml file on <em>Ryder BXML Converter.exe</em> or use the open with function on an xml file.</li>
+        <li>See below for further instructions.</li>
+	</ol>
+	<p>If using Vista (not sure if same goes for Windows 7) it may cause errors if you put it in certain folders because of some
+sort of protection that Vista likes to use. For problems/solutions check below.</p>
+</div>
+<div class="main">
+	<h2>Editor Information</h2>
+	<p>This program will allow you to convert any binary xml files in the Dirt/Grid/F1 2012 games.</p>
+	<p>Features:</p>
+	<ul>
+        <li><strong>Complete Support</strong> -- Supports converting of all xml types forward and backward.</li>
+		<li><strong>Batch Convert</strong> -- Lets you convert multiple binary xml files at once.</li>
+		<li><strong>Open With</strong> -- Allows you to choose "Open With" and select this program to convert the xml.</li>
+	</ul>
+	<h2>Usage</h2>
+	<p>For the fastest/simplest conversion, Right-Click your xml file, press open with and browse to and select <em>Ryder BXML Converter.exe</em>. This will save the converted file in the same location as your current file with a "C.xml" ending.</p>
+    <p>You can also convert files by dragging and dropping them on the executable file.</p>
+	<p>Apart from the above, there are two additional types of arguments you can give to the command line tool:</p>
+	<ol>
+        <li>-c, Conversion Type, File Path, Save Path -- Convert the file to the specified type at the save location.</li>
+        <li>-b, Conversion Type, File Paths... -- Batch converts multiple xml files to the specified type at its original location with a "C.xml" ending.</li>
+	</ol>
+    <p>There are 4 XmlTypes. Use the numbers when asked for a conversion type by the program:</p>
+    <ul>
+        <li>0 -- Text</li>
+        <li>1 -- Bin Xml</li>
+        <li>2 -- BXML Big</li>
+        <li>3 -- BXML Little</li>
+    </ul>
+</div>
+<div class="main">
+	<h2>Issues</h2>
+	<ul>
+		<li>If you get errors try one of the following:
+        	<ul>
+				<li>Make sure the folder that you put the files in is not readonly.</li>
+				<li>Run the exe as an administrator or give it administrator rights.</li>
+        		<li>Put the files in a folder on the desktop.</li>
+			</ul>
+        </li>
+	</ul>
+</div>
+<div class="main">
+	<h2>Changelog</h2>
+	<ul>
+        <li><strong>1.0.2011.0220</strong>
+          <ul>
+            <li>First Release</li>
+          </ul>
+        </li>
+
+    	<li><strong>1.1.2011.0404</strong>
+          <ul>
+            <li>In this version the program actually works (oops, previous version wrong files were uploaded)</li>
+          </ul>
+        </li>
+
+        <li><strong>1.2.2012.0608</strong>
+          <ul>
+            <li>Updated program to support bin xml file types</li>
+          </ul>
+        </li>
+
+        <li><strong>1.3.2012.0914</strong>
+          <ul>
+            <li>Complete Support for converting xml files to any type</li>
+            <li>Dropped the GUI</li>
+          </ul>
+        </li>
+    </ul>
+	<h2>Credits</h2>
+	<ul>
+		<li>Ryder25 - <small>For creating the program. (tasevp(at)yahoo(dot)com)</small></li>
+        <li>RDDev - <small>For testing the program.</small></li>
+        <li>luh-koala - <small>For creating the icon</small></li>
+	</ul>
+</div>
+</body>
+</html>

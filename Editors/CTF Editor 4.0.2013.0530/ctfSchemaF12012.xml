@@ -1,0 +1,487 @@
+<ctfSchema name="F1 2012" version="2013.0529">
+  <entry name="magic" type="int" readOnly=""></entry>
+  <entry name="flag" type="int" readOnly=""></entry>
+  <entry name="abs_strength" type="float" minOperator="gte" minFlag="10"></entry>
+
+  <entry name="aero_cd_max" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_cd_min" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_front_cl_maxf_maxr" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_front_cl_maxf_minr" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_front_cl_minf_maxr" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_front_cl_minf_minr" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_front_wing_loss" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_max_front_height" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_max_rear_height" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_min_front_height" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_min_rear_height" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_rear_cl_maxf_maxr" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_rear_cl_maxf_minr" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_rear_cl_minf_maxr" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_rear_cl_minf_minr" type="float" minOperator="gte" minFlag="29"></entry>
+  <entry name="aero_rear_wing_loss" type="float" minOperator="gte" minFlag="29"></entry>
+
+  <entry name="aero_slipstream_air_density_scale" type="float" minOperator="gte" minFlag="36"></entry>
+
+  <entry name="aero_wing_front_drag" type="float" minOperator="gte" minFlag="35"></entry>
+  <entry name="aero_wing_front_force" type="float" minOperator="gte" minFlag="35"></entry>
+  <entry name="aero_wing_rear_drag" type="float" minOperator="gte" minFlag="35"></entry>
+  <entry name="aero_wing_rear_force" type="float" minOperator="gte" minFlag="35"></entry>
+
+  <entry name="air_density_multiple" type="float" minOperator="gte" minFlag="8"></entry>
+
+  <entry name="air_resistance_x" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="air_resistance_y" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="air_resistance_z" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="ambient_temperature" type="float" minOperator="gte" minFlag="12"></entry>
+
+  <entry name="ambient_temperatureEngine" type="float" minOperator="gte" minFlag="38"></entry>
+
+  <entry name="ambient_temperatureMax" type="float" minOperator="gte" minFlag="35"></entry>
+  <entry name="ambient_temperatureMin" type="float" minOperator="gte" minFlag="35"></entry>
+
+  <entry name="anti_roll_front" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="anti_roll_rear" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="atc_strength" type="float" minOperator="gte" minFlag="10"></entry>
+
+  <entry name="auto_clutch_full_point" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="auto_clutch_gear_delay" type="float" minOperator="gte" minFlag="14"></entry>
+
+  <entry name="auto_clutch_zero_point" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="ballast_mass" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="ballast_offset" type="float" minOperator="gte" minFlag="32"></entry>
+
+  <entry name="bevel_ratio" type="float" minOperator="gte" minFlag="31"></entry>
+
+  <entry name="unknown_bool_1" type="bool" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="brake_torque_front" type="float" minOperator="lt" minFlag="9"></entry>
+  <entry name="brake_torque_rear" type="float" minOperator="lt" minFlag="9"></entry>
+
+  <entry name="brake_bias" type="float" minOperator="gte" minFlag="9"></entry>
+  <entry name="brake_bias_backward" type="float" minOperator="gte" minFlag="9" maxOperator="gte" maxFlag="35"></entry>
+  <entry name="brake_bias_forward" type="float" minOperator="gte" minFlag="9" maxOperator="gte" maxFlag="35"></entry>
+  <entry name="brake_torque_total" type="float" minOperator="gte" minFlag="9"></entry>
+  <entry name="brake_torque_total_backward" type="float" minOperator="gte" minFlag="9" maxOperator="gte" maxFlag="35"></entry>
+  <entry name="brake_torque_total_forward" type="float" minOperator="gte" minFlag="9" maxOperator="gte" maxFlag="35"></entry>
+
+  <entry name="float_list_u_1" type="float-list" minOperator="gte" minFlag="27"></entry>
+  <entry name="float_list_u_2" type="float-list" minOperator="gte" minFlag="27" maxOperator="lt" maxFlag="30"></entry>
+
+  <entry name="float_list_u_3" type="float-list" minOperator="gte" minFlag="37"></entry>
+
+  <entry name="bumpy_amplification" type="float" minOperator="gte" minFlag="21"></entry>
+
+  <entry name="bumpy_surface_factor" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="camber_back_left" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="camber_back_right" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="camber_front_left" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="camber_front_right" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="centre_diff_full_effect_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="centre_diff_max_torque" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="centre_diff_no_effect_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="chase_cam_velocity_prop" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="clutch_gear_time" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="clutch_lift_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="clutch_max_torque" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="car_setup_name" type="string" minOperator="gte" minFlag="0"></entry>
+  <entry name="com_y" type="float" minOperator="gte" minFlag="0">
+    <param name="description">Center of mass.</param>
+  </entry>
+  <entry name="com_z" type="float" minOperator="gte" minFlag="0">
+    <param name="description">Center of mass.</param>
+  </entry>
+
+  <entry name="cs_history_time" type="float" minOperator="gte" minFlag="24"></entry>
+  <entry name="cs_maximum_boost" type="float" minOperator="gte" minFlag="24"></entry>
+  <entry name="cs_tighest_corner_radius" type="float" minOperator="gte" minFlag="24"></entry>
+
+  <entry name="da_additional_acc" type="float" minOperator="gte" minFlag="26"></entry>
+  <entry name="da_drift_angle" type="float" minOperator="gte" minFlag="26"></entry>
+  <entry name="da_enable_speed" type="float" minOperator="gte" minFlag="26"></entry>
+  <entry name="da_full_speed" type="float" minOperator="gte" minFlag="26"></entry>
+  <entry name="da_proportion_to_turn_acc" type="float" minOperator="gte" minFlag="26"></entry>
+
+  <entry name="damping_front" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="damping_rear" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="diff_off_throttle_multiplier" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="disc_front_heat_assumedtorque" type="float" minOperator="gte" minFlag="40"></entry>
+  <entry name="disc_front_heat_capacity" type="float" minOperator="gte" minFlag="40"></entry>
+  <entry name="disc_front_heat_constant" type="float" minOperator="gte" minFlag="40"></entry>
+  <entry name="disc_front_heat_linear" type="float" minOperator="gte" minFlag="40"></entry>
+  <entry name="disc_front_heat_quadratic" type="float" minOperator="gte" minFlag="40"></entry>
+  <entry name="disc_back_heat_assumedtorque" type="float" minOperator="gte" minFlag="40"></entry>
+  <entry name="disc_back_heat_capacity" type="float" minOperator="gte" minFlag="40"></entry>
+  <entry name="disc_back_heat_constant" type="float" minOperator="gte" minFlag="40"></entry>
+  <entry name="disc_back_heat_linear" type="float" minOperator="gte" minFlag="40"></entry>
+  <entry name="disc_back_heat_quadratic" type="float" minOperator="gte" minFlag="40"></entry>
+
+  <entry name="disc_heat_assumedtorque" type="float" minOperator="gte" minFlag="32" maxOperator="lte" maxFlag="39"></entry>
+  <entry name="disc_heat_capacity" type="float" minOperator="gte" minFlag="32" maxOperator="lte" maxFlag="39"></entry>
+  <entry name="disc_heat_constant" type="float" minOperator="gte" minFlag="32" maxOperator="lte" maxFlag="39"></entry>
+  <entry name="disc_heat_linear" type="float" minOperator="gte" minFlag="32" maxOperator="lte" maxFlag="39"></entry>
+  <entry name="disc_heat_quadratic" type="float" minOperator="gte" minFlag="32" maxOperator="lte" maxFlag="39"></entry>
+  
+  <entry name="disc_max_opt_temp" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="disc_max_temp" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="disc_min_opt_temp" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="disc_min_temp" type="float" minOperator="gte" minFlag="32"></entry>
+
+  <entry name="unknown" type="bool" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_central" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_directionality" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_pressure_point" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_pressure_point_in_air" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_pressure_point_in_air_upwards" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_proportion_front_bumper" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_proportion_front_wing" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_proportion_spoiler" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="downforce_rear_and_front" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="unknown_2" type="bool" minOperator="gte" minFlag="0"></entry>
+  <entry name="engine_drivetrain_class" type="string" minOperator="gte" minFlag="0">
+    <param name="description">Car's Drive: Front | Rear | Four/All</param>
+    <param name="restrictedValue">Front</param>
+    <param name="restrictedValue">Rear</param>
+    <param name="restrictedValue">Four</param>
+    <param name="restrictedValue">All</param>
+  </entry>
+  <entry name="engine_friction" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="engine_heat_absorbed" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="engine_heat_capacity" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="engine_heat_constant" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="engine_heat_linear" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="engine_heat_quadratic" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="engine_heat_surface" type="float" minOperator="gte" minFlag="32"></entry>
+
+  <entry name="engine_inertia" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="engine_mass" type="float" minOperator="gte" minFlag="32"></entry>
+
+  <entry name="engine_layout" type="string" minOperator="gte" minFlag="0">
+    <param name="description">Car's Engine Layout: Unknown | Transverse | Inline | Rear Transverse | Rear Inline</param>
+    <param name="restrictedValue">Unknown</param>
+    <param name="restrictedValue">Transverse</param>
+    <param name="restrictedValue">Inline</param>
+    <param name="restrictedValue">Rear Transverse</param>
+    <param name="restrictedValue">Rear Inline</param>
+  </entry>
+
+  <entry name="engine_power_scale" type="float" minOperator="gte" minFlag="31"></entry>
+  <entry name="engine_revs_scale" type="float" minOperator="gte" minFlag="31"></entry>
+
+  <entry name="engine_wear_factor" type="float" minOperator="gte" minFlag="32"></entry>
+
+  <entry name="engine_worn_power_factor" type="float" minOperator="gte" minFlag="33"></entry>
+
+  <entry name="final_drive" type="float" minOperator="gte" minFlag="31"></entry>
+
+  <entry name="unknown_bitfield" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="unknown" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_burst_tyre_grip_multiple" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_castor" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_damper_post_zone_scale" type="float" minOperator="gte" minFlag="0" maxOperator="lte" maxFlag="6"></entry>
+
+  <entry name="front_damper_zone_division" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_diff_full_effect_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_diff_max_torque" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_diff_no_effect_rate" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_fast_bump" type="float" minOperator="gte" minFlag="7"></entry>
+  <entry name="front_fast_rebound" type="float" minOperator="gte" minFlag="7"></entry>
+
+  <entry name="front_peak_slip" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_peak_slp_ratio" type="float" minOperator="gte" minFlag="22"></entry>
+
+  <entry name="front_peak_tyre_depth" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_pressure" type="float" minOperator="gte" minFlag="4"></entry>
+
+  <entry name="front_radius" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_rebound_damper_multiplier" type="float" minOperator="gte" minFlag="0" maxOperator="lte" maxFlag="6"></entry>
+
+  <entry name="unknown_bool_2" type="bool" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_roll_centre" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_rolling_resistance" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_slip_angle_scale" type="float" minOperator="gte" minFlag="28"></entry>
+  <entry name="front_slip_ratio_scale" type="float" minOperator="gte" minFlag="28"></entry>
+
+  <entry name="front_slow_rebound" type="float" minOperator="gte" minFlag="7"></entry>
+
+  <entry name="front_tyre_spring_constant" type="float" minOperator="lte" minFlag="3"></entry>
+
+  <entry name="front_visual_camber" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_visual_sqsh_cam" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_visual_sqsh_lin" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_visual_sqsh_quad" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_visual_stch_cam" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_visual_stch_lin" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="front_visual_stch_quad" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="front_width" type="float" minOperator="gte" minFlag="4"></entry>
+
+  <entry name="pad_1" type="int" minOperator="gte" minFlag="0" maxOperator="lt" maxFlag="32"></entry>
+  <entry name="pad_2" type="int" minOperator="gte" minFlag="0" maxOperator="lt" maxFlag="32"></entry>
+
+  <entry name="fuel_bsfc_max" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="fuel_bsfc_min" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="fuel_lhv" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="fuel_mass" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="fuel_optimal_revs" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="fuel_optimal_torque" type="float" minOperator="gte" minFlag="32"></entry>
+  <entry name="fuel_revs_linear" type="float" minOperator="gte" minFlag="32"></entry>
+
+  <entry name="fuel_scale_cruise" type="float" minOperator="gte" minFlag="35"></entry>
+  <entry name="fuel_scale_fast" type="float" minOperator="gte" minFlag="35"></entry>
+
+  <entry name="fuel_torque_linear" type="float" minOperator="gte" minFlag="32"></entry>
+
+  <entry name="gear_1st" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_1st_downshift_multiple" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_2nd" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_3rd" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_4th" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_5th" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_6th" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_7th" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_8th" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="gear_all_downshift_multiple" type="float" minOperator="gte" minFlag="17"></entry>
+
+  <entry name="gear_change_throttle_off_time" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_change_throttle_on_time" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="gear_reverse" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="grip_front" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="grip_rear" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="handbrake_grip_loss" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="handbrake_strength_multiple" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="unknown_bool_4" type="bool" minOperator="gte" minFlag="0"></entry>
+  <entry name="high_speed_for_steering_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="high_speed_steering_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="idle_rate" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="inerter_front" type="float" minOperator="gte" minFlag="23"></entry>
+  <entry name="inerter_rear" type="float" minOperator="gte" minFlag="23"></entry>
+
+  <entry name="inertia_x" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="inertia_y" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="inertia_z" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="input_brake_power_pad" type="float" minOperator="gte" minFlag="34"></entry>
+  <entry name="input_brake_power_wheel" type="float" minOperator="gte" minFlag="34"></entry>
+  <entry name="input_throttle_power_pad" type="float" minOperator="gte" minFlag="34"></entry>
+  <entry name="input_throttle_power_wheel" type="float" minOperator="gte" minFlag="34"></entry>
+
+  <entry name="jump_anti_gravity" type="float" minOperator="gte" minFlag="19"></entry>
+
+  <entry name="jumpassist_fall_rate" type="float" minOperator="gte" minFlag="18"></entry>
+  <entry name="jumpassist_multiple_cap" type="float" minOperator="gte" minFlag="18"></entry>
+  <entry name="jumpassist_fall_rate" type="float" minOperator="gte" minFlag="18"></entry>
+
+  <entry name="kers_capacity" type="float" minOperator="gte" minFlag="33"></entry>
+  <entry name="kers_power" type="float" minOperator="gte" minFlag="33"></entry>
+
+  <entry name="unknown_bool_5" type="bool" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="unknown_bool_flag" type="bool" minOperator="gte" minFlag="13" refID="0" readOnly="">
+    <param name="description">Indicates whether float_list_u4 should be read from the CTF file.</param>
+  </entry>
+
+  <entry name="unknown_8" type="int" minOperator="gte" minFlag="0"></entry>
+  <entry name="low_speed_for_steering_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="low_speed_steering_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="lowspeed_engine_momentum_boost" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="magic_brake" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="mass" type="float" minOperator="gte" minFlag="0">
+    <param name="description">Kilograms.</param>
+  </entry>
+  <entry name="max_steering_lock" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="max_wheel_height_front" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="max_wheel_height_rear" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="min_wheel_height_front" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="min_wheel_height_rear" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="car_setup_name_2" type="string" minOperator="gte" minFlag="0"></entry>
+  <entry name="unknown_bool_6" type="bool" minOperator="gte" minFlag="0"></entry>
+  <entry name="pad_auto_steer" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="pad_linearity" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="float_list_u_4" type="float-list" minOperator="gte" minFlag="0" linkID="0"></entry>
+  <entry name="pad_min_lock" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="unknown_bool_7" type="bool" minOperator="gte" minFlag="0"></entry>
+  <entry name="power" type="float-list" minOperator="gte" minFlag="0">
+    <param name="description">Power at Revs. Value = Power(Watts). Step = Revs(Radians/Second).</param>
+  </entry>
+  <entry name="rear_burst_tyre_grip_multiple" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_castor" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="rear_damper_post_zone_scale" type="float" minOperator="lte" minFlag="6"></entry>
+
+  <entry name="rear_damper_zone_division" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_diff_full_effect_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_diff_max_torque" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_diff_no_effect_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_drive_proportion" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="rear_fast_bump" type="float" minOperator="gte" minFlag="7"></entry>
+  <entry name="rear_fast_rebound" type="float" minOperator="gte" minFlag="7"></entry>
+
+  <entry name="rear_peak_slip" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="rear_peak_slp_ratio" type="float" minOperator="gte" minFlag="22"></entry>
+
+  <entry name="rear_peak_tyre_depth" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="rear_pressure" type="float" minOperator="gte" minFlag="4"></entry>
+
+  <entry name="rear_radius" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="unknown_bool_8" type="bool" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_roll_centre" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_rolling_resistance" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="rear_slip_angle_scale" type="float" minOperator="gte" minFlag="28"></entry>
+  <entry name="rear_slip_ratio_scale" type="float" minOperator="gte" minFlag="28"></entry>
+
+  <entry name="rear_slow_rebound" type="float" minOperator="gte" minFlag="7"></entry>
+
+  <entry name="rear_tyre_spring_constant" type="float" minOperator="lte" minFlag="3"></entry>
+
+  <entry name="rear_visual_camber" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_visual_sqsh_cam" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_visual_sqsh_lin" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_visual_sqsh_quad" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_visual_stch_cam" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_visual_stch_lin" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="rear_visual_stch_quad" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="rear_width" type="float" minOperator="gte" minFlag="4"></entry>
+
+  <entry name="rebound_damping_multiple" type="float" minOperator="lte" minFlag="6"></entry>
+
+  <entry name="rev_limit" type="float" minOperator="gte" minFlag="0">
+    <param name="description">Radians/Second.</param>
+  </entry>
+  <entry name="reverse_to_1st_transition_speed" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="ride_height_adjust_front" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="ride_height_adjust_rear" type="float" minOperator="gte" minFlag="5"></entry>
+
+  <entry name="road_angle_for_no_grip" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="selfsteer_angle_threshold" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="unknown_bool_9" type="bool" minOperator="gte" minFlag="0"></entry>
+  <entry name="selfsteer_low_speeds" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="selfsteer_lowangle_threshold" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="selfsteer_max_return_rate" type="float" minOperator="gte" minFlag="16"></entry>
+  <entry name="selfsteer_min_return_rate" type="float" minOperator="gte" minFlag="16"></entry>
+
+  <entry name="selfsteer_only_if_correcting" type="float" minOperator="gte" minFlag="2"></entry>
+
+  <entry name="selfsteer_only_when_needed" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="unknown_bool_10" type="bool" minOperator="gte" minFlag="16"></entry>
+
+  <entry name="selfsteer_speed_threshold" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="skidding_grip_drop" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="speed_for_full_pad_lock" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="speed_for_full_starting_wheelspin" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="speed_for_no_starting_wheelspin" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="stability_control_max_angle" type="float" minOperator="gte" minFlag="25"></entry>
+  <entry name="stability_control_max_atc" type="float" minOperator="gte" minFlag="25"></entry>
+  <entry name="stability_control_off_speed" type="float" minOperator="gte" minFlag="25"></entry>
+  <entry name="stability_control_on_speed" type="float" minOperator="gte" minFlag="25"></entry>
+
+  <entry name="starter_motor_strength_multiple" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="stating_wheelspin_grip_loss" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="steering_rate_to_centre_mult" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="steering_rate_to_desired_mult" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="steering_slip_lock_rate" type="float" minOperator="gte" minFlag="39"></entry>
+  
+  <entry name="suspension_strength_front" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="suspension_strength_rear" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="third_spring_dmp_front" type="float" minOperator="gte" minFlag="23"></entry>
+  <entry name="third_spring_dmp_rear" type="float" minOperator="gte" minFlag="23"></entry>
+  <entry name="third_spring_str_front" type="float" minOperator="gte" minFlag="23"></entry>
+  <entry name="third_spring_str_rear" type="float" minOperator="gte" minFlag="23"></entry>
+
+  <entry name="float_list_u_6" type="float-list" minOperator="gte" minFlag="27"></entry>
+  <entry name="float_list_u_7" type="float-list" minOperator="gte" minFlag="27" maxOperator="lt" maxFlag="30"></entry>
+
+  <entry name="float_list_u_8" type="float-list" minOperator="gte" minFlag="37"></entry>
+
+  <entry name="toe_in_front" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="toe_in_rear" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="string_1" type="string" minOperator="gte" minFlag="11"></entry>
+  <entry name="string_2" type="string" minOperator="gte" minFlag="11"></entry>
+
+  <entry name="tyre_damping_factor_front" type="float" minOperator="gte" minFlag="6"></entry>
+  <entry name="tyre_damping_factor_rear" type="float" minOperator="gte" minFlag="6"></entry>
+
+  <entry name="tyre_inertia_multiple_with_drift_steer" type="float" minOperator="gte" minFlag="13"></entry>
+
+  <entry name="tyre_inertias_high_speed" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="tyre_inertias_lowest_speed" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="tyre_inertias_mid_speed" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="tyre_patch_shape_front" type="float" minOperator="gte" minFlag="12"></entry>
+  <entry name="tyre_patch_shape_rear" type="float" minOperator="gte" minFlag="12"></entry>
+  <entry name="tyre_patch_temp_road_rate" type="float" minOperator="gte" minFlag="12"></entry>
+  <entry name="tyre_patch_temp_roll_rate" type="float" minOperator="gte" minFlag="12"></entry>
+  <entry name="tyre_patch_temp_spread_rate" type="float" minOperator="gte" minFlag="12"></entry>
+  <entry name="tyre_patch_temp_work_rate" type="float" minOperator="gte" minFlag="12"></entry>
+
+  <entry name="tyre_x_inertia_multiple_high" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="tyre_x_inertia_multiple_mid" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="tyre_y_inertia_multiple_high" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="tyre_y_inertia_multiple_mid" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="tyre_z_inertia_multiple_high" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="tyre_z_inertia_multiple_mid" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="unknown_bool_11" type="bool" minOperator="gte" minFlag="15"></entry>
+
+  <entry name="car_setup_version" type="string" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_acc_cap_pitch" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_acc_cap_roll" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_acc_new_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_acc_scale_pitch" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_acc_scale_roll" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_amplification_pitch" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_amplification_roll" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_front_max_height" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_rear_max_height" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_turn_rate" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_vib_bottom_amount" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_vib_bottom_speed" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_vib_frequency" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_vib_interval" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_vib_max_threshold" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_vib_min_threshold" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_vib_top_amount" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_vib_top_speed" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="visual_wheel_xv_limit" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="wear_rate_multiple" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="weather_power_multiple" type="float" minOperator="gte" minFlag="8"></entry>
+
+  <entry name="weight_grip_power" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="wheel_force_bottom_factor" type="float" minOperator="gte" minFlag="20"></entry>
+
+  <entry name="wheel_inertia_front" type="float" minOperator="gte" minFlag="0"></entry>
+  <entry name="wheel_inertia_rear" type="float" minOperator="gte" minFlag="0"></entry>
+
+  <entry name="wheel_max_side_shift" type="float" minOperator="gte" minFlag="3"></entry>
+  <entry name="wheel_side_force_to_shift" type="float" minOperator="gte" minFlag="3"></entry>
+
+  <entry name="wiper_cycle_offset" type="float" minOperator="gte" minFlag="0"></entry>
+</ctfSchema>

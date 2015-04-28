@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>RLE - Readme</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 990px;
+            background: #333;
+            color: #fff;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+
+        div#top {
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: auto;
+            background: #666;
+            border: solid #999;
+            border-top: none;
+            text-align: center;
+        }
+
+        div.main {
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: auto;
+            background: #666;
+            border: solid #999;
+        }
+
+        div.red {
+            margin: 0;
+            padding: 5px;
+            background: #900;
+            border: solid #c00;
+        }
+
+        div.yellow {
+            margin: 0;
+            padding: 5px;
+            background: #c90;
+            border: solid #fc0;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+
+        h2 {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.4em;
+        }
+
+        h3 {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.2em;
+        }
+
+        div.red + h2, h2 + div.yellow {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <h1>Ryder Language Editor</h1>
+        version 3.0.2013.0311<br />
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><a href="http://petar.outer-heaven.net/downloads/">Application Website</a></p>
+    </div>
+    <div class="main">
+        <h2>Contents</h2>
+        <ol>
+            <li>Requirements</li>
+            <li>Installation</li>
+            <li>Editor Information</li>
+            <li>Usage</li>
+            <li>Issues</li>
+            <li>Changelog</li>
+            <li>Credits</li>
+        </ol>
+    </div>
+    <div class="main">
+        <h2>Requirements</h2>
+        <ul>
+            <li>.NET Framework 4</li>
+        </ul>
+        <h2>Installation</h2>
+        <ol>
+            <li>Extract everything from the RAR file.</li>
+            <li>Open <em>Ryder Language Editor.exe</em>.</li>
+            <li>Enjoy! :)</li>
+        </ol>
+        <p>
+            If using Vista (not sure if same goes for Windows 7) it may cause errors if you put it in certain folders because of some
+sort of protection that Vista likes to use. For problems/solutions check below.
+        </p>
+    </div>
+    <div class="main">
+        <h2>Editor Information</h2>
+        <p>This program provides a nice GUI for editing language files for the Ego Engine games.</p>
+        <p>Features:</p>
+        <ul>
+            <li><strong>Export/Import As XML</strong> -- Lets you export/import the LNG file as an xml for editing.</li>
+            <li><strong>Add/Remove/Change Values</strong> -- Not only can you change values but now its also possible to remove or add new ones. Thanks to Miek for uncovering the hash functions without which this was not possible.</li>
+            <li><strong>Filter Data</strong> -- Easily search through the contents of the data.</li>
+            <li><strong>Search/Replace</strong> -- Find and replace values in the text.</li>
+            <li><strong>Open With</strong> -- Allows you to choose "Open With" and select this program to open LNG files.</li>
+        </ul>
+        <h2>Usage</h2>
+        <p>After turning on the program simply click File -> Open and select a LNG file to edit.</p>
+        <p>Notes/Tips:</p>
+        <ul>
+            <li>The LNG_Keys are links from game files like the database to the actual text.</li>
+            <li>Make sure when editting or creating new LNG_Keys that they are unique and do not already exist.</li>
+            <li>Right-Click the header of each column of the datagrid to search the data.</li>
+            <li>Search/Replace has options to search only in a certain column.</li>
+            <li>Use shift-enter to make new lines in values.</li>
+            <li>Ctrl-C to copy and Ctrl-V to paste.</li>
+            <li>When exported as XML two files are actually saved.</li>
+            <li>When editing the XML <em>DO NOT</em> change the "info" section.</li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>Issues</h2>
+        <ul>
+            <li>If you get errors try one of the following:
+        		<ul>
+                    <li>Make sure the folder that you put the files in is not readonly.</li>
+                    <li>Run the exe as an administrator or give it administrator rights.</li>
+                    <li>Put the files in a folder on the desktop.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>Changelog</h2>
+        <ul>
+            <li><strong>3.0.2013.0311</strong>
+                <ul>
+                    <li>Added Compare/Merge Functions</li>
+                    <li>Added Safety Check When Quitting Application</li>
+                    <li>Small UI Improvements</li>
+                    <li>Implemented EgoEngineLibrary (EEL)</li>
+                </ul>
+            </li>
+
+            <li><strong>1.1.2011.0616</strong>
+                <ul>
+                    <li>Added Search/Replace Form</li>
+                    <li>Added Copy/Paste Functions</li>
+                    <li>Saving is now Faster</li>
+                    <li>Check Key is Unique when Adding New Row (Still no Check for Editing)</li>
+                </ul>
+            </li>
+            
+            <li><strong>1.0.2011.0611</strong>
+                <ul>
+                    <li>First Release</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Credits</h2>
+        <ul>
+            <li>Ryder25 - <small>For creating the program. (tasevp(at)yahoo(dot)com)</small></li>
+            <li>Miek - <small>For figuring out the hash function required to be able to add and remove values.</small></li>
+            <li>luh-koala - <small>For creating icon and other graphics</small></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ECE - Readme</title>
+    <style type="text/css">
+        body
+        {
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 990px;
+            background: #333;
+            color: #fff;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+
+        div#top
+        {
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: auto;
+            background: #666;
+            border: solid #999;
+            border-top: none;
+            text-align: center;
+        }
+
+        div.main
+        {
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: auto;
+            background: #666;
+            border: solid #999;
+        }
+
+        div.red
+        {
+            margin: 0;
+            padding: 5px;
+            background: #900;
+            border: solid #c00;
+        }
+
+        div.yellow
+        {
+            margin: 0;
+            padding: 5px;
+            background: #c90;
+            border: solid #fc0;
+        }
+
+        h1
+        {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+
+        h2
+        {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.4em;
+        }
+
+        h3
+        {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.2em;
+        }
+
+        div.red + h2, h2 + div.yellow
+        {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <h1>EGO CTF Editor</h1>
+        version 4.0.2013.0530<br />
+        <p>Special Thanks to Miek!</p>
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><a href="http://petar.outer-heaven.net/downloads/">Application Website</a></p>
+    </div>
+    <div class="main">
+        <h2>Contents</h2>
+        <ol>
+            <li>Requirements</li>
+            <li>Installation</li>
+            <li>Editor Information</li>
+            <li>Usage</li>
+            <li>Issues</li>
+            <li>Changelog</li>
+            <li>Credits</li>
+        </ol>
+    </div>
+    <div class="main">
+        <h2>Requirements</h2>
+        <ul>
+            <li>.NET Framework 4</li>
+        </ul>
+        <h2>Installation</h2>
+        <ol>
+            <li>Extract everything from the 7zip file.</li>
+            <li>Open <em>EGO CTF Editor.exe</em>.</li>
+            <li>Enjoy! :)</li>
+        </ol>
+        <p>
+            If using Vista (not sure if same goes for Windows 7) it may cause errors if you put it in certain folders because of some
+sort of protection that Vista likes to use. For problems/solutions check below.
+        </p>
+    </div>
+    <div class="main">
+        <h2>Editor Information</h2>
+        <p>With this program you can edit CarTuningFiles (CTF,CSV) files for the EGO engine games. These files contain car performance data.</p>
+        <p>Features:</p>
+        <ul>
+            <li><strong>Intuitive GUI</strong> -- The graphics user interface has been built to allow maximum ease of use when editing files.</li>
+            <li><strong>Easy Compare</strong> -- Aside from the files' data being lined up side by side, with the click of a button the program will show you all the differences between the files.</li>
+            <li><strong>Community Involvement</strong> -- Schema files for each game are in xml format so that modders can edit descriptions of their findings for the file's values and share them with each other.</li>
+            <li><strong>Open With</strong> -- Allows you to choose "Open With" and select this program to open CTF files.</li>
+        </ul>
+        <h2>Usage</h2>
+        <p>After turning on the program, simply select a game by pressing the appropriate tab, and then click File -> Open and select a CTF file to edit.</p>
+        <p>Games per Tab:</p>
+        <ul>
+            <li>Dirt -- Colin McRae Dirt</li>
+            <li>Grid -- Race Driver: Grid</li>
+            <li>Formula 1 -- All F1 games</li>
+            <li>Other -- Dirt 2/3/Showdown, Grid 2</li>
+        </ul>
+        <p>Useful Tips/Tricks:</p>
+        <ul>
+            <li>Each new file is loaded into a column in the datagrid.</li>
+            <li>Press on the column's header to select a file before saving or closing it.</li>
+            <li>Pressing on the first column's header will open up a filter box for you to search entry names.</li>
+            <li>Middle (Scroll) click a cell in any row to highlight it for better viewing.</li>
+            <li>Right click a cell to edit it directly. NOTE: Cells in certain rows cannot be edited</li>
+            <li>Use Control-C to copy and Control-V to paste data.</li>
+            <li>Edit the schema.xml files in the program's folder to write down information you've found about any of the file's values. Feel free to share them with the modding community. :)</li>
+            <li>Drag and Drop a file on the form to open it.</li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>Issues</h2>
+        <ul>
+            <li>If you get errors try one of the following:
+        	<ul>
+                <li>Make sure the folder that you put the files in is not readonly.</li>
+                <li>Run the exe as an administrator or give it administrator rights.</li>
+                <li>Put the files in a folder on the desktop.</li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>Changelog</h2>
+        <ul>
+            <li><strong>4.0.2013.0530</strong>
+                <ul>
+                    <li>Added support for Dirt, and Grid 2</li>
+                    <li>Fixed Dirt Showdown</li>
+                    <li>Fixed Pasting when rows are hidden</li>
+                    <li>Simplified UI</li>
+                    <li>Uses EEL</li>
+                </ul>
+            </li>
+
+            <li><strong>3.1.2013.0107</strong>
+                <ul>
+                    <li>Fixed Various Bugs for Grid</li>
+                    <li>Cleaned up backend</li>
+                    <li>Started New Version System</li>
+                </ul>
+            </li>
+
+            <li><strong>1.2.2013.0106</strong>
+                <ul>
+                    <li>Improved Error Checking</li>
+                    <li>Changed FloatList Unknown to Step</li>
+                    <li>DragDrop Feature to Open Files</li>
+                    <li>Small Update to Schema Files</li>
+                    <li>Added Support for Race Driver Grid</li>
+                </ul>
+            </li>
+
+            <li><strong>1.1.2012.1005</strong>
+                <ul>
+                    <li>Improved UI in Column Filter and FileDialog areas</li>
+                    <li>Added Support for Dirt Showdown, and F1 2012 games</li>
+                </ul>
+            </li>
+
+            <li><strong>1.0.2012.0606</strong>
+                <ul>
+                    <li>First Release</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Credits</h2>
+        <ul>
+            <li>Ryder25 - <small>For creating the program. (tasevp(at)yahoo(dot)com)</small></li>
+            <li>Miek - <small>For figuring out the schemas for the files which make all of this possible.</small></li>
+            <li>luh-koala - <small>For creating program icon.</small></li>
+            <li>famfamfam.com - <small>For the "silk" menu icons.</small></li>
+        </ul>
+    </div>
+</body>
+</html>

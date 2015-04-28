@@ -1,0 +1,877 @@
+ID for Demolition_D
+<free_race_discipline_id type="int">19</free_race_discipline_id>
+	  
+		    <free_race_discipline start="541938761" end="notExist">
+				<competition_format_id type="int">2</competition_format_id>
+				<id type="int">19</id>
+				<match_vehicle_class type="bool">False</match_vehicle_class>
+				<name_string_id type="string" size="50">Demolition_D</name_string_id>
+				<sort_order type="int">17</sort_order>
+			</free_race_discipline>
+
+ID for Demolition derby Tracks
+<free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  
+			<free_race_track_pool start="625824841" end="notExist">
+				<base_result_list type="string" size="50">25,0,0,0</base_result_list>
+				<id type="int">1242</id>
+				<max_cars type="int">16</max_cars>												//original was 12
+				<name type="string" size="32">Demolition_D</name>
+				<blank type="int">0</blank>
+				<sort_order type="int">2</sort_order>
+				<track_model_id type="int">115</track_model_id>
+			</free_race_track_pool>
+What about??
+			<free_race_track_pool start="625824841" end="notExist">
+				<base_result_list type="string" size="50">30,0,0,0</base_result_list>
+				<id type="int">1243</id>
+				<max_cars type="int">16</max_cars>												//original was 12
+				<name type="string" size="32">Demolition_D</name>
+				<blank type="int">0</blank>
+				<sort_order type="int">1</sort_order>
+				<track_model_id type="int">13</track_model_id>
+			</free_race_track_pool>
+
+			
+TRACK MODELS:
+<track_model start="1078809673" end="notExist">
+	<drift_off_track type="bool">False</drift_off_track>
+	<file_string type="string" size="20">detroit</file_string>
+	<blank type="int">0</blank>
+	<folder_string type="string" size="16">usa</folder_string>
+	<blank type="int">0</blank>
+	<headlights_on type="bool">True</headlights_on>												//original was False
+	<id type="int">13</id>
+	<length type="float">2.6</length>
+	<local_audio_ambience type="string" size="16">loc_usa</local_audio_ambience>
+	<blank type="int">0</blank>
+	<minimap_file_string type="string" size="20">detroit_8</minimap_file_string>
+	<blank type="int">0</blank>
+	<name_string_id type="string" size="20">detroit_stad_L</name_string_id>
+	<blank type="int">0</blank>
+	<route_string type="string" size="16">Route_8</route_string>
+	<blank type="int">0</blank>
+	<supports_time_of_day type="bool">True</supports_time_of_day>								//original was False
+	<track_id type="int">3</track_id>
+	<track_type_id type="int">5</track_type_id>
+	<vehicle_lights_on type="bool">True</vehicle_lights_on>										//original was False
+</track_model>
+	
+	
+<track_model start="1078809673" end="notExist">
+	<drift_off_track type="bool">False</drift_off_track>
+	<file_string type="string" size="20">detroit</file_string>
+	<blank type="int">0</blank>
+	<folder_string type="string" size="16">usa</folder_string>
+	<blank type="int">0</blank>
+	<headlights_on type="bool">True</headlights_on>												//original was False
+	<id type="int">115</id>
+	<length type="float">2.4</length>
+	<local_audio_ambience type="string" size="16">loc_usa</local_audio_ambience>
+	<blank type="int">0</blank>
+	<minimap_file_string type="string" size="20">detroit_9</minimap_file_string>
+	<blank type="int">0</blank>
+	<name_string_id type="string" size="20">detroit_stad_s</name_string_id>
+	<blank type="int">0</blank>
+	<route_string type="string" size="16">Route_9</route_string>
+	<blank type="int">0</blank>
+	<supports_time_of_day type="bool">True</supports_time_of_day>								//original was False
+	<track_id type="int">3</track_id>
+	<track_type_id type="int">5</track_type_id>
+	<vehicle_lights_on type="bool">True</vehicle_lights_on>										//original was False
+</track_model>
+
+Based off:
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+      <id type="int">124</id> //Start at 149 (238 for AACT mod)
+      <vehicle_id type="int">50</vehicle_id>
+    </free_race_restrictions>
+	
+DD ALL Cars: (48 cars)
+
+	<free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+      <id type="int">193</id>
+      <vehicle_id type="int">3</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">179</id>
+      <vehicle_id type="int">43</vehicle_id>
+    </free_race_restrictions>
+	
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+      <id type="int">194</id>
+      <vehicle_id type="int">7</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+      <id type="int">195</id>
+      <vehicle_id type="int">8</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">196</id>
+      <vehicle_id type="int">9</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">197</id>
+      <vehicle_id type="int">10</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">149</id>
+      <vehicle_id type="int">11</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">150</id>
+      <vehicle_id type="int">12</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">151</id>
+      <vehicle_id type="int">13</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">152</id>
+      <vehicle_id type="int">14</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">153</id>
+      <vehicle_id type="int">15</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">154</id>
+      <vehicle_id type="int">16</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">155</id>
+      <vehicle_id type="int">17</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">156</id>
+      <vehicle_id type="int">18</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">157</id>
+      <vehicle_id type="int">19</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">158</id>
+      <vehicle_id type="int">20</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">159</id>
+      <vehicle_id type="int">21</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">160</id>
+      <vehicle_id type="int">22</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">161</id>
+      <vehicle_id type="int">24</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">162</id>
+      <vehicle_id type="int">25</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">163</id>
+      <vehicle_id type="int">26</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">164</id>
+      <vehicle_id type="int">27</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">165</id>
+      <vehicle_id type="int">29</vehicle_id> 
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">166</id>
+      <vehicle_id type="int">30</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">167</id>
+      <vehicle_id type="int">31</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">168</id>
+      <vehicle_id type="int">32</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">169</id>
+      <vehicle_id type="int">33</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">170</id>
+      <vehicle_id type="int">34</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">171</id>
+      <vehicle_id type="int">35</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">172</id>
+      <vehicle_id type="int">36</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">173</id>
+      <vehicle_id type="int">37</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">174</id>
+      <vehicle_id type="int">38</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">175</id>
+      <vehicle_id type="int">39</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">176</id>
+      <vehicle_id type="int">40</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">177</id>
+      <vehicle_id type="int">41</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">178</id>
+      <vehicle_id type="int">42</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">180</id>
+      <vehicle_id type="int">44</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">181</id>
+      <vehicle_id type="int">45</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">182</id>
+      <vehicle_id type="int">46</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">183</id>
+      <vehicle_id type="int">47</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">184</id>
+      <vehicle_id type="int">48</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">185</id>
+      <vehicle_id type="int">49</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">186</id>
+      <vehicle_id type="int">51</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">187</id>
+      <vehicle_id type="int">52</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">188</id>
+      <vehicle_id type="int">53</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">189</id>
+      <vehicle_id type="int">54</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">190</id>
+      <vehicle_id type="int">55</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">191</id>
+      <vehicle_id type="int">57</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">192</id>
+      <vehicle_id type="int">58</vehicle_id>
+    </free_race_restrictions>
+
+DDAC For AACT (46 cars)
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+      <id type="int">294</id>
+      <vehicle_id type="int">7</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+      <id type="int">295</id>
+      <vehicle_id type="int">8</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">296</id>
+      <vehicle_id type="int">9</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">297</id>
+      <vehicle_id type="int">10</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">249</id>
+      <vehicle_id type="int">11</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">250</id>
+      <vehicle_id type="int">12</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">251</id>
+      <vehicle_id type="int">13</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">252</id>
+      <vehicle_id type="int">14</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">253</id>
+      <vehicle_id type="int">15</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">254</id>
+      <vehicle_id type="int">16</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">255</id>
+      <vehicle_id type="int">17</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">256</id>
+      <vehicle_id type="int">18</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">257</id>
+      <vehicle_id type="int">19</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">258</id>
+      <vehicle_id type="int">20</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">259</id>
+      <vehicle_id type="int">21</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">260</id>
+      <vehicle_id type="int">22</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">261</id>
+      <vehicle_id type="int">24</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">262</id>
+      <vehicle_id type="int">25</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">263</id>
+      <vehicle_id type="int">26</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">264</id>
+      <vehicle_id type="int">27</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">265</id>
+      <vehicle_id type="int">29</vehicle_id> 
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">266</id>
+      <vehicle_id type="int">30</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">267</id>
+      <vehicle_id type="int">31</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">268</id>
+      <vehicle_id type="int">32</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">269</id>
+      <vehicle_id type="int">33</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">270</id>
+      <vehicle_id type="int">34</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">271</id>
+      <vehicle_id type="int">35</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">272</id>
+      <vehicle_id type="int">36</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">273</id>
+      <vehicle_id type="int">37</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">274</id>
+      <vehicle_id type="int">38</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">275</id>
+      <vehicle_id type="int">39</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">276</id>
+      <vehicle_id type="int">40</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">277</id>
+      <vehicle_id type="int">41</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">278</id>
+      <vehicle_id type="int">42</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">280</id>
+      <vehicle_id type="int">44</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">281</id>
+      <vehicle_id type="int">45</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">282</id>
+      <vehicle_id type="int">46</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">283</id>
+      <vehicle_id type="int">47</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">284</id>
+      <vehicle_id type="int">48</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">285</id>
+      <vehicle_id type="int">49</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">286</id>
+      <vehicle_id type="int">51</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">287</id>
+      <vehicle_id type="int">52</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">288</id>
+      <vehicle_id type="int">53</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">289</id>
+      <vehicle_id type="int">54</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">290</id>
+      <vehicle_id type="int">55</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+      <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">291</id>
+      <vehicle_id type="int">57</vehicle_id>
+    </free_race_restrictions>
+    <free_race_restrictions start="575493193" end="notExist">
+	  <career_rank_id type="int">1</career_rank_id>
+      <career_region_id type="int">2</career_region_id>
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  <id type="int">292</id>
+      <vehicle_id type="int">58</vehicle_id>
+    </free_race_restrictions>
+	
+Events:
+      <free_race_discipline_id type="int">19</free_race_discipline_id>
+      <free_race_track_pool_id type="int">1242</free_race_track_pool_id>
+	  
+event_vehilcle_id
+241
+247
+279
+347
+361
